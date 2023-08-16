@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Meine Links</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Meine Links</h1>
+    <div class="categories">
+      <button class="category-btn" onclick="toggleCategory('social')">
+        Social Media
+        <span class="arrow-icon">&#9660;</span>
+      </button>
+      <div class="category-links" id="social-links">
+        <!-- Links for Social Media -->
+      </div>
+      
+      <button class="category-btn" onclick="toggleCategory('blogs')">
+        Blogs
+        <span class="arrow-icon">&#9660;</span>
+      </button>
+      <div class="category-links" id="blogs-links">
+        <!-- Links for Blogs -->
+      </div>
+      
+      <button class="category-btn" onclick="toggleCategory('portfolio')">
+        Portfolio
+        <span class="arrow-icon">&#9660;</span>
+      </button>
+      <div class="category-links" id="portfolio-links">
+        <!-- Links for your Portfolio -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
